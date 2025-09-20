@@ -6,7 +6,7 @@ This repository contains the code and documentation for our final year project: 
 ## Project Overview
 This project develops machine learning models to predict Arsenic (As) and Zinc (Zn) concentrations in marine sediments. We implemented three standalone models (ENN, BTA, RVM) and a hybrid RVM-FPA model, which optimizes RVM using the Flower Pollination Algorithm. The project leverages data augmentation, statistical preprocessing, and robust evaluation to support environmental monitoring and remediation strategies.
 
-##Data
+## Data
 The dataset includes 161 sediment samples from the coastal area near Tangshan Harbor, China, measuring heavy metals (Cr, Cu, Zn, As, Cd, Pb, Hg, Ni), Al2O3, clay, silt, sand, mean grain size, and water depth. The data is sourced from the Dryad repository: [Distribution of heavy metals in coastal sediments under the influence of multiple factors: A case study from the south coast of an industrialized harbor city (Tangshan, China)](https://datadryad.org/stash/dataset/doi:10.5061/dryad.mkkwh7150) (August 25, 2023). 
 - **Files** (in `/data/`):
   - `new Actual data.csv`: Original dataset (161 samples, 19 columns, no nulls) from the Dryad repository.
