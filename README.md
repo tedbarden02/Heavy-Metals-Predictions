@@ -48,6 +48,12 @@ Data was preprocessed with ILR transformation for compositional data and tested 
   - **RVM-FPA**: Hybrid model optimizing RVM with FPA for enhanced accuracy.
 - **Evaluation**: 5-fold cross-validation; metrics include MAE, RMSE, NSE, MAPE, PBIAS.
 
+## Results
+The hybrid RVM-FPA model outperformed standalone models:
+- **Zn**: MAE = 5.67 mg/kg, RMSE = 9.21 mg/kg.
+- **As**: MAE = 1.23 mg/kg, RMSE = 2.31 mg/kg.
+See `Heavy metals.ipynb` for detailed metrics and plots.
+
 
 ## References
 - Dataset: [Distribution of heavy metals in coastal sediments under the influence of multiple factors: A case study from the south coast of an industrialized harbor city (Tangshan, China)](https://datadryad.org/stash/dataset/doi:10.5061/dryad.mkkwh7150) (Dryad, August 25, 2023).
